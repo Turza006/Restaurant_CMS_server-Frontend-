@@ -1,0 +1,20 @@
+mutation OwnerEmailVerification ($token: String) {
+    OwnerEmailVerification (token: $token) {
+        id
+        firstName
+        lastName
+        email
+        phoneNo
+        profilePic
+        isEmailVerified
+        isPhoneVerified
+        billingType
+        billingNumber
+        billingAddress
+        createdAt
+        updatedAt
+        msg
+        code
+        jwt
+    }
+}

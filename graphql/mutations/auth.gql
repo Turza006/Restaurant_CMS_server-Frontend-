@@ -1,0 +1,21 @@
+mutation OwnerSignUp ($payload: OwnerInput) {
+    OwnerSignUp(payload: $payload) {
+        id
+        firstName
+        lastName
+        email
+        phoneNo
+        profilePic
+        isEmailVerified
+        isPhoneVerified
+        billingType
+        billingNumber
+        billingAddress
+        createdAt
+        profilePic
+        updatedAt
+        jwt
+        msg
+        code
+    }
+}

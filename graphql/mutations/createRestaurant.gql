@@ -1,0 +1,7 @@
+mutation CreateRestaurant($payload : RestaurantInput){
+    CreateRestaurant (payload: $payload){
+        msg
+        code
+        jwt
+    }
+}

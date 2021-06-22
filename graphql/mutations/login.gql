@@ -1,0 +1,20 @@
+mutation OwnerLogin ($email: String, $password: String, $deviceToken: String) {
+    OwnerLogin (email: $email, password: $password, deviceToken: $deviceToken) {
+        id
+        firstName
+        lastName
+        email
+        phoneNo
+        profilePic
+        isEmailVerified
+        isPhoneVerified
+        billingType
+        billingNumber
+        billingAddress
+        createdAt
+        updatedAt
+        msg
+        code
+        jwt
+    }
+}

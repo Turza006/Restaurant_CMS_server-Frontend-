@@ -1,0 +1,7 @@
+mutation BillingRequest($payload: BillingInfoInput) {
+    BillingRequest(payload: $payload) {
+        msg
+        code
+        jwt
+    }
+}
